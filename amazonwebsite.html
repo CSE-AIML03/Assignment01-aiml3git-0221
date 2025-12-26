@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AMAZON WEBSITE</title>
+    </head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background: #131921;
+  color: white;
+  padding: 10px;
+}
+.header input {
+  flex: 1;
+  margin: 0 15px;
+  padding: 8px;
+}
+.nav {
+  background: #232f3e;
+  padding: 10px;
+}
+.nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.banner {
+  background: #f3f3f3;
+  padding: 40px;
+  text-align: center;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.footer {
+  background: #131921;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+<body>
+<header class="header">
+  <div class="logo">Amazon</div>
+  <input type="text" placeholder="Search Amazon">
+  <div class="cart">Cart</div>
+</header>
+
+<nav class="nav">
+  <a href="#">All</a>
+  <a href="#">Mobiles</a>
+  <a href="#">Fashion</a>
+  <a href="#">Electronics</a>
+</nav>
+
+<section class="banner">
+  <h2>Big Deals Today</h2>
+</section>
+
+<section class="products">
+  <div class="card">Product 1</div>
+  <div class="card">Product 2</div>
+  <div class="card">Product 3</div>
+  <div class="card">Product 4</div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Amazon Clone</p>
+</footer>
+</body>
+</html>
